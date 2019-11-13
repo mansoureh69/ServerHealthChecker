@@ -1,0 +1,11 @@
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\obj\Debug\netcoreapp2.1\ServerHealthChecker.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\obj\Debug\netcoreapp2.1\ServerHealthChecker.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\obj\Debug\netcoreapp2.1\ServerHealthChecker.AssemblyInfo.cs
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\bin\Debug\netcoreapp2.1\ServerHealthChecker.deps.json
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\bin\Debug\netcoreapp2.1\ServerHealthChecker.runtimeconfig.json
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\bin\Debug\netcoreapp2.1\ServerHealthChecker.runtimeconfig.dev.json
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\bin\Debug\netcoreapp2.1\ServerHealthChecker.dll
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\bin\Debug\netcoreapp2.1\ServerHealthChecker.pdb
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\obj\Debug\netcoreapp2.1\ServerHealthChecker.csprojAssemblyReference.cache
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\obj\Debug\netcoreapp2.1\ServerHealthChecker.dll
+C:\Users\asus\source\repos\ServerHealthChecker\ServerHealthChecker\obj\Debug\netcoreapp2.1\ServerHealthChecker.pdb

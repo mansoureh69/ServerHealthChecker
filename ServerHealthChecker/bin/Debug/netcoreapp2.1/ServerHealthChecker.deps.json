@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "a1827e299fe2272e057ac918a61acafd363278ea"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ServerHealthChecker/1.0.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0"
+        },
+        "runtime": {
+          "ServerHealthChecker.dll": {}
+        }
+      },
+      "System.Collections/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {}
+    }
+  },
+  "libraries": {
+    "ServerHealthChecker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Collections/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4OUAhTgW36KWip19IXwqbs35FWSwK4wFmcvV8fogZ7jAcx6qU0WKIfplyB01rLnV0O9ZQ+Cy6mOxaIuIodsi1w==",
+      "path": "system.collections/4.3.0",
+      "hashPath": "system.collections.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yqLYxeRL7Aj1XfnJMI+9iIt4/DevXrRz+Bl5mXBL0ycdc66kivWC46ag3QZHtu1nG1O+sZbvgPzZLHfEdZ9GzQ==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    }
+  }
+}
