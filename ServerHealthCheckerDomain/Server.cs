@@ -1,14 +1,17 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 
 namespace ServerHealthCheckerDomain
 {
      public abstract class Server
     {
-        protected  List<int> NotifyTypes { get; set; }
-        protected  List<Client> ContactsCLients { get; set; }
-        protected abstract void ServerHealthCheck();
-        protected abstract void Notify();
+        protected Server(Dictionary<object, string>  notifyClientInNormal, Dictionary<object, string> notifyClientInCritical, Dictionary<object, string> notifyClientInWarning)
+        {
+
+        }
+      
+        public Dictionary<object, List<NotifyType>>[] NotifyClient = new Dictionary<object, List<NotifyType>>[3];
+        public ServerHealthStatus ServerHealthStatus { get;  set; }
 
     }
 }

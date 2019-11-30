@@ -3,13 +3,8 @@
 namespace ServerHealthCheckerDomain
 {
     public class FileServerHealthChecker : IHealthChecker
-    {
-        public void NotifyToClient(Server server)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool ServerHealthCheck(Server server)
+    {   
+        public ServerHealthStatus ServerHealthCheck(Server server)
         {
             throw new NotImplementedException();
         }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ServerHealthCheckerDomain
 {
@@ -8,15 +9,10 @@ namespace ServerHealthCheckerDomain
         public string ProviderName { get; set; }
         public string ConnectionString { get; set; }
         public string TestQuery { get; set; }
-        
-        protected override void ServerHealthCheck()
-        {
-            throw new NotImplementedException();
-        }
 
-        protected override void Notify()
+
+        public DataBaseServer(Dictionary<object, string> notifyClientInNormal, Dictionary<object, string> notifyClientInCritical, Dictionary<object, string> notifyClientInWarning) : base(notifyClientInNormal, notifyClientInCritical, notifyClientInWarning)
         {
-            throw new NotImplementedException();
         }
     }
 }

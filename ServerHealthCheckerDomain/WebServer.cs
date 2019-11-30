@@ -1,19 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace ServerHealthCheckerDomain
 {
-    public class WebServer :Server
+    public class WebServer : Server
     {
-        protected override void ServerHealthCheck()
+        public WebServer(Dictionary<object, string> notifyClientInNormal, Dictionary<object, string> notifyClientInCritical, Dictionary<object, string> notifyClientInWarning) : base(notifyClientInNormal, notifyClientInCritical, notifyClientInWarning)
         {
-            throw new NotImplementedException();
-        }
-
-        protected override void Notify()
-        {
-            throw new NotImplementedException();
         }
     }
 }
